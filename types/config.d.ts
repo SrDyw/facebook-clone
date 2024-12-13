@@ -9,4 +9,5 @@ interface ApiConfiguration {
 
 interface AppConfiguration {
     name: string
+    description: string
 }
