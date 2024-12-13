@@ -1,5 +1,6 @@
+import RegisterForm from "@/app/components/form/RegisterForm";
 const RegisterPage = () => {
-    return <div className="preview-page-skeleton">Register View</div>
+    return <div><RegisterForm /></div>
 }
 
 export default RegisterPage;
