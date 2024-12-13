@@ -3,6 +3,7 @@ export const globalConfig : GlobalConfiguration = {
         origin: "https://example.com"
     },
     app: {
-        name: "Facebook Clone"
+        name: "Facebook Clone",
+        description: "This is a Facebook clone for personal skill superation"
     }
 } 
