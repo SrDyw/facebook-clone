@@ -1,5 +1,4 @@
 import { globalConfig } from "@/global.config";
-import Image from "next/image";
 
 export default function Home() {
   return (
