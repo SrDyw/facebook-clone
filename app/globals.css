@@ -19,3 +19,16 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.preview-page-skeleton {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 2rem;
+}
+@layer base {
+  * {
+    @apply font-[family-name:var(--font-geist-sans)];
+  }
+}
