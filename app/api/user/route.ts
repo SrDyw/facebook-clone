@@ -8,7 +8,6 @@ export async function GET() {
 }
 
 export async function POST(req: Request) {
-    const prisma = new PrismaClient()
     try {
         const body = await req.json();
         const { email, username, password } = body;
@@ -38,6 +37,6 @@ export async function POST(req: Request) {
         })
         return NextResponse.json({ user: newUser, message: 'Usuario creado exitosamente' }, { status: 201 });
     } catch (err) {
-        console.log(err)
+        
     }
 }
