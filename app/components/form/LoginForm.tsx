@@ -28,8 +28,14 @@ const LoginForm = () => {
             username: values.username,
             password: values.password
         });
-        console.log(values)
-    }
+
+        if (loginData?.error) {
+            console.log(loginData.error)
+        } else {
+            router.refresh();
+            router.push('/');
+        }
+     }
 
     return (
         <div className='card flex justify-center min-h-screen items-center'>
