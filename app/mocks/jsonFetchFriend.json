@@ -1,0 +1,17 @@
+[
+    {   
+        "id": 1,
+        "name": "Pero la queria tanto",
+        "photoUrl": "/laqueria.png"
+    },
+    {
+        "id": 2,
+        "name": "El catarritos",
+        "photoUrl": "/arturito.png"
+    },
+    {
+        "id": 3,
+        "name": "Tu golfista de confinaza",
+        "photoUrl": "/Joel.png"
+    }
+]
