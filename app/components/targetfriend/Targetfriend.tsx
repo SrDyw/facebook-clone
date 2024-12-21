@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../botons/Buttons";
+import Button from "../buttons/Buttons";
 
 interface TargetProps{
   name: string,

@@ -18,65 +18,36 @@ const Navbar: React.FC = () => {
               </div>
             </div>
             <div className="hidden md:block">
-                
                 <div className="ml-4 flex items-center space-x-4">
                 <Link
-                  href={"/"}
-                  className="text-white hover:bg-[#fff9] hover:text-black rounded-lg p-2 pr-6 pl-6"
-                >
-                  <HomeIcon/>
+                  href={"/"} className="text-white hover:bg-[#fff9] hover:text-black rounded-lg p-2 pr-6 pl-6"><HomeIcon/>
+                </Link>
+                <Link 
+                  href={"/friends"} className="text-white hover:bg-[#fff9] hover:text-black rounded-lg p-3 pr-6 pl-6"><PersonsIcons/>
                 </Link>
                 <Link
-                  href={"/friends"}
-                  className="text-white hover:bg-[#fff9] hover:text-black rounded-lg p-3 pr-6 pl-6"
-                >
-                  <PersonsIcons/>
+                  href={"/"} className="text-white hover:bg-[#fff9] hover:text-black rounded-lg p-1 pr-6 pl-6"><MoviesIcons/>
                 </Link>
                 <Link
-                  href={"/"}
-                  className="text-white hover:bg-[#fff9] hover:text-black rounded-lg p-1 pr-6 pl-6"
-                >
-                  <MoviesIcons/>
+                  href={"/"} className="text-white hover:bg-[#fff9] hover:text-black rounded-lg p-2 pr-6 pl-6"><GroupIcons/>
                 </Link>
                 <Link
-                  href={"/"}
-                  className="text-white hover:bg-[#fff9] hover:text-black rounded-lg p-2 pr-6 pl-6"
-                >
-                  <GroupIcons/>
-                </Link>
-                
-                <Link
-                  href={"/"}
-                  className="text-white hover:bg-[#fff9] hover:text-black rounded-lg p-1 pr-6 pl-6"
-                >
-                  <GamesIcons/>
+                  href={"/"} className="text-white hover:bg-[#fff9] hover:text-black rounded-lg p-1 pr-6 pl-6"><GamesIcons/>
                 </Link>
               </div>
             </div>
             <div className="ml-4 flex items-center space-x-4">
                 <Link
-                  href={"/"}
-                  className="text-white bg-[#fff5] hover:bg-[#fff9] hover:text-black rounded-[50%] p-2 transition"
-                >
-                  <OptionsIcons/>
+                  href={"/"} className="text-white bg-[#fff5] hover:bg-[#fff9] hover:text-black rounded-[50%] p-2 transition"><OptionsIcons/>
                 </Link>
                 <Link
-                  href={"/"}
-                  className="text-white bg-[#fff5] hover:bg-[#fff9] hover:text-black rounded-[50%] p-2 transition"
-                >
-                  <MessageIcons/>
+                  href={"/"} className="text-white bg-[#fff5] hover:bg-[#fff9] hover:text-black rounded-[50%] p-2 transition"><MessageIcons/>
                 </Link>
                 <Link
-                  href={"/"}
-                  className="text-white bg-[#fff5] hover:bg-[#fff9] hover:text-black rounded-[50%] p-2 transition"
-                >
-                  <NotificationIcons/>
+                  href={"/"} className="text-white bg-[#fff5] hover:bg-[#fff9] hover:text-black rounded-[50%] p-2 transition"><NotificationIcons/>
                 </Link>
                 <Link
-                  href={"/login"}
-                  className="text-white bg-[#fff5] hover:bg-[#fff9] hover:text-black rounded-[50%] p-2 transition"
-                >
-                  <UserIcons/>
+                  href={"/login"} className="text-white bg-[#fff5] hover:bg-[#fff9] hover:text-black rounded-[50%] p-2 transition"><UserIcons/>
                 </Link>
               </div>
           </div>

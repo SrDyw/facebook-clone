@@ -1,12 +1,24 @@
 [
-    {   
-        "id": 1,
-        "name": "Rapuncel Melena de León",
-        "photoUrl": "/day.png"
-    },
-    {
-        "id": 2,
-        "name": "Caballo Homosexual de las Montañas",
-        "photoUrl": "/OIP.jfif"
-    }
+  { "id": 1,"name": "Rapuncel Melena de León","photoUrl": "/day.png"},
+  { "id": 2,"name": "Caballo Homosexual de las Montañas","photoUrl": "/OIP.jfif"},
+  { "id": 3, "name": "Michael Williams", "photoUrl": "https://randomuser.me/api/portraits/men/20.jpg" }, 
+  { "id": 4, "name": "Sarah Jones", "photoUrl": "https://randomuser.me/api/portraits/women/20.jpg" }, 
+  { "id": 5, "name": "David Brown", "photoUrl": "https://randomuser.me/api/portraits/men/30.jpg" }, 
+  { "id": 6, "name": "Olivia Davis", "photoUrl": "https://randomuser.me/api/portraits/women/30.jpg" }, 
+  { "id": 7, "name": "James Miller", "photoUrl": "https://randomuser.me/api/portraits/men/40.jpg" }, 
+  { "id": 8, "name": "Sophia Wilson", "photoUrl": "https://randomuser.me/api/portraits/women/40.jpg" }, 
+  { "id": 9, "name": "John Martinez", "photoUrl": "https://randomuser.me/api/portraits/men/50.jpg" }, 
+  { "id": 10, "name": "Isabella Taylor", "photoUrl": "https://randomuser.me/api/portraits/women/50.jpg" }, 
+  { "id": 11, "name": "Daniel Anderson", "photoUrl": "https://randomuser.me/api/portraits/men/60.jpg" }, 
+  { "id": 12, "name": "Mia Thomas", "photoUrl": "https://randomuser.me/api/portraits/women/60.jpg" }, 
+  { "id": 13, "name": "Matthew Hernandez", "photoUrl": "https://randomuser.me/api/portraits/men/70.jpg" }, 
+  { "id": 14, "name": "Ella Moore", "photoUrl": "https://randomuser.me/api/portraits/women/70.jpg" }, 
+  { "id": 15, "name": "Joseph Martin", "photoUrl": "https://randomuser.me/api/portraits/men/80.jpg" }, 
+  { "id": 16, "name": "Ava Jackson", "photoUrl": "https://randomuser.me/api/portraits/women/80.jpg" }, 
+  { "id": 17, "name": "William Thompson", "photoUrl": "https://randomuser.me/api/portraits/men/90.jpg" }, 
+  { "id": 18, "name": "Charlotte White", "photoUrl": "https://randomuser.me/api/portraits/women/90.jpg" }, 
+  { "id": 19, "name": "Liam Garcia", "photoUrl": "https://randomuser.me/api/portraits/men/99.jpg" }, 
+  { "id": 20, "name": "Amelia Martinez", "photoUrl": "https://randomuser.me/api/portraits/women/99.jpg"},
+  { "id": 21, "name": "Maximo Alexei", "photoUrl": "https://randomuser.me/api/portraits/men/1.jpg" },
+  { "id": 22, "name": "Emily Smith", "photoUrl": "https://randomuser.me/api/portraits/women/1.jpg" }
 ]
